@@ -1,0 +1,554 @@
+{
+  "levels": {
+    "1": {
+      "title": "System Initialization",
+      "modules": [
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "blue", "blue", "light_blue", "SKIP", "light_blue", "blue", "blue", "SKIP",
+        "SKIP", "light_blue", "blue", "SKIP", "powerup", "SKIP", "blue", "light_blue", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "2": {
+      "title": "Data Stream",
+      "modules": [
+        "blue", "light_blue", "blue", "light_blue", "SKIP", "light_blue", "blue", "light_blue", "blue",
+        "light_blue", "SKIP", "light_blue", "SKIP", "powerup", "SKIP", "light_blue", "SKIP", "light_blue",
+        "blue", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "3": {
+      "title": "Firewall Node",
+      "modules": [
+        "hardened", "blue", "blue", "blue", "SKIP", "blue", "blue", "blue", "hardened",
+        "SKIP", "light_blue", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "light_blue", "SKIP",
+        "hardened", "blue", "blue", "blue", "SKIP", "blue", "blue", "blue", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "4": {
+      "title": "Grid Lockdown",
+      "modules": [
+        "hardened", "hardened", "SKIP", "hardened", "SKIP", "hardened", "SKIP", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "blue", "SKIP", "blue", "SKIP", "blue", "SKIP", "blue", "blue",
+        "light_blue", "light_blue", "SKIP", "light_blue", "SKIP", "light_blue", "SKIP", "light_blue", "light_blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "5": {
+      "title": "Buffer Cascade",
+      "modules": [
+        "blue", "SKIP", "blue", "SKIP", "blue", "SKIP", "blue", "SKIP", "blue",
+        "light_blue", "hardened", "SKIP", "hardened", "powerup", "hardened", "SKIP", "hardened", "light_blue",
+        "blue", "SKIP", "blue", "SKIP", "SKIP", "SKIP", "blue", "SKIP", "blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "6": {
+      "title": "Encryption Layer",
+      "modules": [
+        "hardened", "hardened", "hardened", "hardened", "SKIP", "hardened", "hardened", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "light_blue", "blue", "SKIP", "SKIP", "SKIP", "blue", "light_blue", "blue",
+        "light_blue", "blue", "light_blue", "SKIP", "SKIP", "SKIP", "light_blue", "blue", "light_blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "7": {
+      "title": "Mainframe Deflect",
+      "modules": [
+        "blue", "light_blue", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "light_blue", "blue",
+        "light_blue", "blue", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "blue", "light_blue",
+        "hardened", "SKIP", "hardened", "blue", "powerup", "blue", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "blue", "SKIP", "blue", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "8": {
+      "title": "Logic Gate",
+      "modules": [
+        "hardened", "blue", "hardened", "blue", "SKIP", "blue", "hardened", "blue", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "light_blue", "hardened", "light_blue", "hardened", "SKIP", "hardened", "light_blue", "hardened", "light_blue",
+        "blue", "SKIP", "blue", "SKIP", "SKIP", "SKIP", "blue", "SKIP", "blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "9": {
+      "title": "Vector Shield",
+      "modules": [
+        "hardened", "hardened", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "light_blue", "blue", "SKIP", "SKIP", "SKIP", "blue", "light_blue", "blue",
+        "light_blue", "blue", "light_blue", "blue", "SKIP", "blue", "light_blue", "blue", "light_blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "10": {
+      "title": "Sector One Core",
+      "modules": [
+        "hardened", "hardened", "hardened", "hardened", "SKIP", "hardened", "hardened", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "light_blue", "blue", "SKIP", "SKIP", "SKIP", "blue", "light_blue", "blue",
+        "hardened", "blue", "light_blue", "blue", "SKIP", "blue", "light_blue", "blue", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "11": {
+      "title": "Toxic Spill",
+      "modules": [
+        "green", "light_green", "green", "SKIP", "volatile", "SKIP", "green", "light_green", "green",
+        "light_green", "SKIP", "light_green", "SKIP", "SKIP", "SKIP", "light_green", "SKIP", "light_green",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "12": {
+      "title": "Acid Reservoir",
+      "modules": [
+        "hardened", "SKIP", "volatile", "SKIP", "hardened", "SKIP", "volatile", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "green", "green", "SKIP", "light_green", "powerup", "light_green", "SKIP", "green", "green",
+        "light_green", "SKIP", "green", "SKIP", "SKIP", "SKIP", "green", "SKIP", "light_green",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "13": {
+      "title": "Corrosive Grid",
+      "modules": [
+        "green", "volatile", "green", "SKIP", "green", "SKIP", "green", "volatile", "green",
+        "light_green", "SKIP", "light_green", "SKIP", "powerup", "SKIP", "light_green", "SKIP", "light_green",
+        "hardened", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "14": {
+      "title": "Unstable Mainframe",
+      "modules": [
+        "hardened", "volatile", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "volatile", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "green", "light_green", "green", "SKIP", "green", "light_green", "green", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "15": {
+      "title": "Hazard Tank",
+      "modules": [
+        "green", "light_green", "green", "light_green", "SKIP", "light_green", "green", "light_green", "green",
+        "light_green", "hardened", "SKIP", "hardened", "powerup", "hardened", "SKIP", "hardened", "light_green",
+        "green", "SKIP", "green", "SKIP", "SKIP", "SKIP", "green", "SKIP", "green",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "16": {
+      "title": "Pressure Chamber",
+      "modules": [
+        "volatile", "SKIP", "volatile", "SKIP", "hardened", "SKIP", "volatile", "SKIP", "volatile",
+        "SKIP", "green", "SKIP", "green", "SKIP", "green", "SKIP", "green", "SKIP",
+        "hardened", "light_green", "green", "SKIP", "powerup", "SKIP", "green", "light_green", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "17": {
+      "title": "Sludge Pipeline",
+      "modules": [
+        "green", "green", "green", "hardened", "SKIP", "hardened", "green", "green", "green",
+        "light_green", "SKIP", "light_green", "SKIP", "powerup", "SKIP", "light_green", "SKIP", "light_green",
+        "volatile", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "18": {
+      "title": "Meltdown Trigger",
+      "modules": [
+        "hardened", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "green", "SKIP", "green", "powerup", "green", "SKIP", "green", "SKIP",
+        "volatile", "light_green", "green", "light_green", "SKIP", "light_green", "green", "light_green", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "19": {
+      "title": "Vapor Maze",
+      "modules": [
+        "green", "SKIP", "green", "SKIP", "powerup", "SKIP", "green", "SKIP", "green",
+        "light_green", "SKIP", "light_green", "SKIP", "SKIP", "SKIP", "light_green", "SKIP", "light_green",
+        "hardened", "SKIP", "hardened", "SKIP", "volatile", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "20": {
+      "title": "Industrial Waste Core",
+      "modules": [
+        "hardened", "SKIP", "hardened", "SKIP", "hardened", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "green", "SKIP", "green", "SKIP", "green", "SKIP", "green", "SKIP",
+        "volatile", "light_green", "SKIP", "light_green", "powerup", "light_green", "SKIP", "light_green", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "21": {
+      "title": "Quantum Barrier",
+      "modules": [
+        "purple", "light_purple", "blue", "light_blue", "blue", "light_blue", "blue", "light_purple", "purple",
+        "volatile", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "volatile",
+        "SKIP", "light_green", "purple", "SKIP", "SKIP", "SKIP", "purple", "light_green", "SKIP",
+        "blue", "light_blue", "green", "SKIP", "hardened", "SKIP", "green", "light_blue", "blue",
+        "purple", "light_purple", "blue", "light_blue", "SKIP", "light_blue", "blue", "light_purple", "purple",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "22": {
+      "title": "Sector Clear",
+      "modules": [
+        "hardened", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "hardened",
+        "SKIP", "blue", "green", "purple", "SKIP", "purple", "green", "blue", "SKIP",
+        "hardened", "light_blue", "light_green", "light_purple", "powerup", "light_purple", "light_green", "light_blue", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "23": {
+      "title": "Overcharge Chamber",
+      "modules": [
+        "blue", "blue", "blue", "blue", "SKIP", "blue", "blue", "blue", "blue",
+        "hardened", "SKIP", "purple", "purple", "SKIP", "purple", "purple", "hardened",
+        "SKIP", "SKIP", "light_purple", "light_purple", "powerup", "light_purple", "light_purple", "SKIP", "SKIP",
+        "volatile", "green", "light_green", "light_green", "SKIP", "light_green", "light_green", "green", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "24": {
+      "title": "Crossfire Grid",
+      "modules": [
+        "purple", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "purple",
+        "light_purple", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "light_purple",
+        "blue", "light_blue", "green", "SKIP", "SKIP", "SKIP", "green", "light_blue", "blue",
+        "light_green", "purple", "blue", "SKIP", "hardened", "SKIP", "blue", "purple", "light_green",
+        "hardened", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "25": {
+      "title": "The Equalizer",
+      "modules": [
+        "hardened", "SKIP", "hardened", "SKIP", "volatile", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "light_blue", "SKIP", "light_green", "SKIP", "light_green", "SKIP", "light_blue", "SKIP",
+        "purple", "light_purple", "green", "light_green", "powerup", "light_green", "green", "light_purple", "purple",
+        "hardened", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "26": {
+      "title": "Mirror Matrix",
+      "modules": [
+        "blue", "green", "purple", "hardened", "SKIP", "hardened", "purple", "green", "blue",
+        "light_blue", "light_green", "light_purple", "SKIP", "SKIP", "SKIP", "light_purple", "light_green", "light_blue",
+        "volatile", "SKIP", "volatile", "SKIP", "powerup", "SKIP", "volatile", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "purple", "green", "blue", "SKIP", "SKIP", "SKIP", "blue", "green", "purple",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "27": {
+      "title": "Detonation Highway",
+      "modules": [
+        "volatile", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "SKIP", "hardened", "light_green", "SKIP", "light_green", "hardened", "SKIP", "hardened",
+        "SKIP", "light_blue", "SKIP", "light_blue", "SKIP", "light_blue", "SKIP", "light_blue", "SKIP",
+        "purple", "light_purple", "blue", "light_blue", "SKIP", "light_blue", "blue", "light_purple", "purple",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "28": {
+      "title": "Layered Bastion",
+      "modules": [
+        "hardened", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "volatile", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "blue", "blue", "blue", "SKIP", "blue", "blue", "blue", "blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "29": {
+      "title": "Diamond Core",
+      "modules": [
+        "SKIP", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "hardened", "purple", "powerup", "purple", "hardened", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "light_blue", "green", "light_green", "SKIP", "light_green", "green", "light_blue", "blue"
+      ]
+    },
+    "30": {
+      "title": "Iron Ceiling",
+      "modules": [
+        "hardened", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "blue", "SKIP", "green", "light_green", "SKIP", "light_green", "green", "SKIP", "blue",
+        "light_blue", "purple", "light_purple", "blue", "SKIP", "blue", "light_purple", "purple", "light_blue",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "31": {
+      "title": "Thermal Breach",
+      "modules": [
+        "hardened", "orange", "orange", "orange", "SKIP", "orange", "orange", "orange", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "volatile", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "red", "red", "SKIP", "SKIP", "SKIP", "red", "red", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "32": {
+      "title": "Magma Core",
+      "modules": [
+        "SKIP", "SKIP", "volatile", "hardened", "hardened", "hardened", "volatile", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "orange", "red", "SKIP", "powerup", "SKIP", "red", "orange", "hardened",
+        "SKIP", "red", "orange", "SKIP", "SKIP", "SKIP", "orange", "red", "SKIP",
+        "volatile", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "33": {
+      "title": "Pressure Valve",
+      "modules": [
+        "hardened", "hardened", "SKIP", "hardened", "hardened", "hardened", "SKIP", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "red", "volatile", "SKIP", "orange", "powerup", "orange", "SKIP", "volatile", "red",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "orange", "red", "SKIP", "red", "SKIP", "red", "SKIP", "red", "orange",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "34": {
+      "title": "Overheat Matrix",
+      "modules": [
+        "volatile", "orange", "red", "orange", "SKIP", "orange", "red", "orange", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "hardened", "SKIP", "hardened", "SKIP", "hardened", "SKIP", "hardened", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "red", "orange", "red", "SKIP", "red", "orange", "red", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "35": {
+      "title": "Meltdown Grid",
+      "modules": [
+        "hardened", "hardened", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "red", "powerup", "red", "SKIP", "SKIP", "SKIP",
+        "orange", "orange", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "orange", "orange",
+        "red", "orange", "SKIP", "SKIP", "volatile", "SKIP", "SKIP", "orange", "red",
+        "volatile", "red", "orange", "SKIP", "SKIP", "SKIP", "orange", "red", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "36": {
+      "title": "Failsafe Bypass",
+      "modules": [
+        "red", "red", "red", "hardened", "volatile", "hardened", "red", "red", "red",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "orange", "SKIP", "orange", "SKIP", "powerup", "SKIP", "orange", "SKIP", "orange",
+        "volatile", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "37": {
+      "title": "Chamber 404",
+      "modules": [
+        "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "orange", "orange", "red", "red", "SKIP", "red", "red", "orange", "orange",
+        "red", "red", "orange", "orange", "SKIP", "orange", "orange", "red", "red",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "38": {
+      "title": "Plasma Conduit",
+      "modules": [
+        "volatile", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "orange", "SKIP", "SKIP", "red", "powerup", "red", "SKIP", "SKIP", "orange",
+        "red", "orange", "volatile", "orange", "SKIP", "orange", "volatile", "orange", "red",
+        "SKIP", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "red", "orange", "red", "SKIP", "red", "orange", "red", "hardened"
+      ]
+    },
+    "39": {
+      "title": "Critical Point",
+      "modules": [
+        "hardened", "hardened", "hardened", "SKIP", "volatile", "SKIP", "hardened", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "red", "orange", "volatile", "red", "SKIP", "red", "volatile", "orange", "red",
+        "SKIP", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "SKIP",
+        "orange", "red", "red", "orange", "SKIP", "orange", "red", "red", "orange"
+      ]
+    },
+    "40": {
+      "title": "Supernova Cascade",
+      "modules": [
+        "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "red", "orange", "red", "powerup", "red", "orange", "red", "SKIP",
+        "hardened", "orange", "red", "orange", "SKIP", "orange", "red", "orange", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "41": {
+      "title": "The Golden Gate",
+      "modules": [
+        "hardened", "gold", "SKIP", "gold", "hardened", "gold", "SKIP", "gold", "hardened",
+        "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "volatile", "SKIP",
+        "gold", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "gold",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "gold", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "gold", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "42": {
+      "title": "Event Horizon",
+      "modules": [
+        "SKIP", "SKIP", "hardened", "gold", "volatile", "gold", "hardened", "SKIP", "SKIP",
+        "SKIP", "gold", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "gold", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "volatile", "gold", "SKIP", "SKIP", "SKIP", "gold", "volatile", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "43": {
+      "title": "Quantum Singularity",
+      "modules": [
+        "hardened", "hardened", "hardened", "gold", "SKIP", "gold", "hardened", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "volatile", "SKIP", "gold", "gold", "SKIP", "gold", "gold", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "gold", "SKIP", "SKIP", "hardened", "volatile", "hardened", "SKIP", "SKIP", "gold",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "44": {
+      "title": "Lux Matrix",
+      "modules": [
+        "gold", "gold", "gold", "gold", "SKIP", "gold", "gold", "gold", "gold",
+        "hardened", "SKIP", "hardened", "SKIP", "powerup", "SKIP", "hardened", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "volatile", "SKIP", "gold", "gold", "SKIP", "gold", "gold", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "45": {
+      "title": "Gilded Cage",
+      "modules": [
+        "hardened", "hardened", "SKIP", "hardened", "hardened", "hardened", "SKIP", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "volatile", "SKIP", "gold", "powerup", "gold", "SKIP", "volatile", "SKIP",
+        "gold", "SKIP", "SKIP", "gold", "SKIP", "gold", "SKIP", "SKIP", "gold",
+        "volatile", "gold", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "gold", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "46": {
+      "title": "Aureum Divide",
+      "modules": [
+        "gold", "SKIP", "gold", "hardened", "volatile", "hardened", "gold", "SKIP", "gold",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "gold", "hardened", "SKIP", "SKIP", "SKIP", "hardened", "gold", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "47": {
+      "title": "Void Lattice",
+      "modules": [
+        "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "gold", "gold", "gold", "gold", "SKIP", "gold", "gold", "gold", "gold",
+        "hardened", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP"
+      ]
+    },
+    "48": {
+      "title": "Midas Touch",
+      "modules": [
+        "volatile", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "volatile",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "gold", "SKIP", "SKIP", "gold", "powerup", "gold", "SKIP", "SKIP", "gold",
+        "gold", "gold", "volatile", "gold", "SKIP", "gold", "volatile", "gold", "gold",
+        "SKIP", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "SKIP",
+        "hardened", "gold", "gold", "gold", "SKIP", "gold", "gold", "gold", "hardened"
+      ]
+    },
+    "49": {
+      "title": "The Zenith Vault",
+      "modules": [
+        "hardened", "hardened", "hardened", "SKIP", "volatile", "SKIP", "hardened", "hardened", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "SKIP", "SKIP", "SKIP", "powerup", "SKIP", "SKIP", "SKIP", "SKIP",
+        "gold", "gold", "volatile", "gold", "SKIP", "gold", "volatile", "gold", "gold",
+        "SKIP", "SKIP", "SKIP", "SKIP", "hardened", "SKIP", "SKIP", "SKIP", "SKIP",
+        "gold", "gold", "gold", "gold", "SKIP", "gold", "gold", "gold", "gold"
+      ]
+    },
+    "50": {
+      "title": "Omega Core (Final Boss)",
+      "modules": [
+        "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened", "volatile", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "gold", "gold", "gold", "powerup", "gold", "gold", "gold", "SKIP",
+        "hardened", "gold", "hardened", "gold", "SKIP", "gold", "hardened", "gold", "hardened",
+        "SKIP", "SKIP", "SKIP", "SKIP", "volatile", "SKIP", "SKIP", "SKIP", "SKIP",
+        "SKIP", "gold", "gold", "gold", "SKIP", "gold", "gold", "gold", "SKIP"
+      ]
+    }
+  }
+}

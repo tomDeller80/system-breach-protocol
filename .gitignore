@@ -1,0 +1,38 @@
+# --- Python Base ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# --- PyInstaller (Build Artifacts) ---
+# These are generated every time you run the build command
+build/
+dist/
+*.spec
+
+# --- Scripts ---
+*.sh
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE & Editor Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Windows System Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Project Specific ---
+# Keep your local scores private during development
+# (Only ignore this if you don't want your personal test scores on GitHub)
+scores.json

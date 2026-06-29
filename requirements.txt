@@ -1,0 +1,8 @@
+# Game Engine
+pygame>=2.5.0
+
+# Development & Build
+pytest==9.0.3
+pyinstaller==6.21.0
+pip-audit==2.10.0
+pipdeptree==2.34.00
