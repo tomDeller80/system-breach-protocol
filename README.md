@@ -117,7 +117,7 @@ Once the defense grid falls or the terminal lockout timer runs out, the engine d
 
 ### 1. Clone the repository:
 ```bash
-git clone [https://github.com/tomDeller80/system-breach-protocol.git](https://github.com/tomDeller80/system-breach-protocol.git)
+git clone https://github.com/tomDeller80/system-breach-protocol.git
 cd "System Breach Protocol"
 ```
 
